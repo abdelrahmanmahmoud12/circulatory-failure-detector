@@ -1,0 +1,66 @@
+.prediction{
+    font-family: 'Kanit', sans-serif;
+    background-color: #EEEEEA;
+}
+.prediction_h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    color: #333333;
+    text-shadow: 2px 2px 5px rgb(152, 148, 148);
+    padding-top: 50px;
+    padding-bottom: 5px;
+  }
+  .brdr1{
+    margin:auto;
+    width: 5%;
+    height: 0.07px;
+    background-color: #FF305B;
+
+}
+.brdr2{
+    margin:5px auto;
+    width: 13%;
+    height: 0.07px;
+    background-color: #FF305B;
+}
+.brdr4{
+    margin:auto;
+    margin-bottom: 70px;
+    width: 5%;
+    height: 0.07px;
+    background-color: #FF305B;
+
+}
+.left_form{
+    background: #D9DACF;
+    position: relative;
+}
+.left_form::before{
+    content: 'Enter Your Data';
+    position: absolute;
+    background-color: #badaa4;
+    color: rgb(34, 33, 33);
+    top: -2.6%;
+    left: 8%;
+    padding: 10px 12px ;
+    border-radius: 2px 20px;
+    text-align: center;
+    
+}
+
+.pred_btn{
+    background-color: #badaa4 !important;
+    border-color: #badaa4 !important;
+    color: black !important;
+    transition: all 2s;
+}
+.pred_btn:hover{
+    background-color: #d4ecc4 !important;
+    border-color: #badaa4 !important;
+}
+
+.req{
+    font-size: 18px;
+}
